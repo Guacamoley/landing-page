@@ -1,8 +1,15 @@
-header, #main-section, footer {
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, #main-section, footer{
     background-color: #1F2937
 }
-.nav-item {
-    size: 15px;
+
+.nav-item, .sub-text, footer{
+    font-size: 15px;
     color: #E5E7EB
 }
 
@@ -11,9 +18,49 @@ a {
 }
 
 .button-color {
+    color: #E5E7EB;
     background-color: #3882F6
 }
 
 #action-box {
     background-color: #3882f6
+}
+
+#main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#random-section-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1f2937;
+}
+
+#quote-sign-off {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#action-text {
+    color: #E5E7EB;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.copyright {
+    margin: 0;
+    padding: 24px;
+    text-align: center;
 }
