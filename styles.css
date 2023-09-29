@@ -1,0 +1,19 @@
+header, #main-section, footer {
+    background-color: #1F2937
+}
+.nav-item {
+    size: 15px;
+    color: #E5E7EB
+}
+
+a {
+    user-select: none;
+}
+
+.button-color {
+    background-color: #3882F6
+}
+
+#action-box {
+    background-color: #3882f6
+}
