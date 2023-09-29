@@ -9,7 +9,7 @@ Welcome to Yumi's Fan Page! This is a simple website dedicated to celebrating Yu
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
+- [License](#License)
 
 ## Introduction
 
