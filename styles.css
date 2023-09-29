@@ -20,7 +20,8 @@ a {
 
 .button-color {
     color: #E5E7EB;
-    background-color: #3882F6
+    background-color: #3882F6;
+    border-radius: 7px;
 }
 
 #action-box {
@@ -39,7 +40,8 @@ a {
 #random-section-title {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937
+    color: #1F2937;
+    margin-bottom: 40px;
 }
 
 #quote-section{
@@ -69,8 +71,7 @@ a {
 
 #action-button {
     align-content: right;
-    border-radius: 10px;
-    border-color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
 
 .copyright {
@@ -79,3 +80,41 @@ a {
     text-align: center;
 }
 
+#nav-logo {
+    width: 50px;
+    height: 50;
+}
+
+.resized-image {
+    max-width: 50%;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+}
+
+#main-image {
+    width: 500px;
+    height: 200px;
+}
+
+#random-section {
+    text-align: center;
+}
+
+.image-item {
+    flex: 0 0 calc(25% - 10px);
+    margin: 0 -10px;
+    text-align: center;
+}
+
+#random-section-picture-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.image-caption {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #1f2937;
+}
