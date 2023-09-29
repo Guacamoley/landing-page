@@ -49,7 +49,7 @@ Contributions to Yumi's Fan Page are welcome! If you have any improvements or ne
 4. Push to your forked repository: git push origin feature-name
 5. Create a pull request.
 
-##License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
