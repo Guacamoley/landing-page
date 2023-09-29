@@ -15,7 +15,7 @@ Welcome to Yumi's Fan Page! This is a simple website dedicated to celebrating Yu
 
 Yumi's Fan Page is a personal project created to showcase the love and admiration for Yumi. The website features a collection of images and information related to Yumi, as well as some inspiring quotes and a call to action.
 
-![Happy Yumi](images/img6.jpg)
+![Happy Yumi](images/img1.jpg)
 
 ## Features
 
