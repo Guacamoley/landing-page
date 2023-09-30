@@ -113,7 +113,12 @@ a {
 
 #random-section {
     text-align: center;
-    padding: 100px;
+    padding: 10%;
+}
+
+#random-section-title {
+    margin-top: 0;
+    margin-bottom: 7%;
 }
 
 .image-item {
