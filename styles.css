@@ -28,7 +28,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 5%
+    padding: 5% 10%;
 }
 
 #main-content {
@@ -139,6 +139,12 @@ a {
     background-color: #3882F6;
     border-radius: 7px;
 }
+
+.sign-up-button:active {
+    background-color: #3861f6; 
+    transform: scale(0.95); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+  }
 
 #button-container {
     text-align: right;
