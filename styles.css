@@ -9,6 +9,11 @@ header, #main-section, footer{
     background-color: #1F2937;
 }
 
+#navigation-bar {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-item, .sub-text, footer{
     font-size: 15px;
     color: #E5E7EB
@@ -18,22 +23,33 @@ a {
     user-select: none;
 }
 
-.button-color {
-    color: #E5E7EB;
-    background-color: #3882F6;
-    border-radius: 7px;
-}
-
 #main-section {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
+    padding: 5%
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 #main-title {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin: 0;
+}
+
+#main-button {
+    border: 0;
+}
+
+.element {
+    flex: 1;
 }
 
 #random-section-title {
@@ -114,11 +130,14 @@ a {
     margin: 6%;
 }
 
-#action-button {
+.sign-up-button {
     align-content: right;
     border: 1px solid #F9FAF8;
-    min-height: 40px;
-    min-width: 125px;
+    height: 40px;
+    width: 125px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 7px;
 }
 
 #button-container {
@@ -146,6 +165,8 @@ a {
 #main-image {
     height: 300px;
     width: auto;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
 }
 
 #random-section {
