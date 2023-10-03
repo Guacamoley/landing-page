@@ -26,6 +26,7 @@ header, #main-section, footer{
     display: inline-block;
     margin-right: 20px;
     padding-top: 20px;
+    font-size: 18px;
 }
 
 .nav-item a {
@@ -43,12 +44,13 @@ header, #main-section, footer{
 }
 
 #nav-logo {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     margin: 5%;
+    border-radius: 50%;
 }
 
-.nav-item, .sub-text, footer{
+.sub-text, footer{
     font-size: 15px;
     color: #E5E7EB
 }
