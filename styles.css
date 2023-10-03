@@ -24,6 +24,12 @@ a {
     border-radius: 7px;
 }
 
+#main-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 #main-title {
     font-size: 48px;
     font-weight: bolder;
@@ -138,13 +144,14 @@ a {
 }
 
 #main-image {
-    width: 500px;
-    height: 200px;
+    height: 300px;
+    width: auto;
 }
 
 #random-section {
     text-align: center;
-    padding: 10%;
+    padding: 3% 15% 10%;
+    
 }
 
 #random-section-title {
