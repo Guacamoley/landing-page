@@ -9,9 +9,43 @@ header, #main-section, footer{
     background-color: #1F2937;
 }
 
-#navigation-bar {
-    margin: 0;
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+
+#navigation-bar-list {
+    list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.nav-item a:hover {
+    color: #005f9e;
+}
+
+#navbar-logo-container {
+    padding-right: 25%;
+    padding-top: 20px;
+}
+
+#nav-logo {
+    max-width: 100px;
+    height: auto;
+    margin: 5%;
 }
 
 .nav-item, .sub-text, footer{
@@ -155,11 +189,6 @@ a {
     margin: 0;
     padding: 24px;
     text-align: center;
-}
-
-#nav-logo {
-    width: 50px;
-    height: 50;
 }
 
 .resized-image {
