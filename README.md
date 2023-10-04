@@ -50,6 +50,6 @@ Contributions to Yumi's Fan Page are welcome! If you have any improvements or ne
 5. Create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
